@@ -12,4 +12,12 @@
         </listener-class>
     </listener>
 
+    <servlet>
+    <servlet-name>newServlet</servlet-name>
+        <servlet-class>com.teaminternational.web.HttpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>newServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
 </web-app>
